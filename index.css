@@ -1,5 +1,8 @@
 body{
     background-color: gainsboro;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: url(https://fonts.google.com/specimen/DM+Sans);
 }
 .container{
     margin: 0 auto;
@@ -8,4 +11,55 @@ body{
 }
 img{
     width: 100px;
+}
+.grid-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+
+    grid-template-areas: 
+    "a b b c"
+    "a b b c "
+    "d e f c "
+    "d g h h ";
+}
+.grid-container-one {
+   grid-area: a;
+   background-color:  hsl(31, 66%, 93%);
+}
+.grid-container-two{
+  grid-area: b;
+  background-color:  hsl(256, 67%, 59%)
+;
+}
+.grid-container-three{
+ grid-area: c;
+ background-color:  hsl(254, 88%, 90%);
+}
+.grid-container-four{
+grid-area: d;
+background-color: hsl(39, 100%, 71%);
+}
+.grid-container-five{
+    grid-area: e;
+    background-color: hsl(0, 0%, 100%);
+
+}
+.grid-container-six{
+    grid-area: f;
+    background-color: hsl(39, 100%, 71%);
+}
+.grid-container-seven{
+    grid-area: g;
+    background-color: hsl(0, 0%, 100%);
+
+}
+.grid-container-eight{
+ grid-area: h;
+ background-color:  hsl(256, 67%, 59%);
+}
+.grid-container div{
+    padding: 15px;
+    border-radius: 10px;
 }
