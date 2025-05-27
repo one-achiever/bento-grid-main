@@ -1,0 +1,11 @@
+body{
+    background-color: gainsboro;
+}
+.container{
+    margin: 0 auto;
+    display: block;
+    max-width: 800px;
+}
+img{
+    width: 100px;
+}
