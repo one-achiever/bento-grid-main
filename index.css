@@ -1,8 +1,8 @@
 body{
     background-color: gainsboro;
-    font-size: 18px;
-    line-height: 20px;
-    font-family: url(https://fonts.google.com/specimen/DM+Sans);
+    
+
+    
 }
 .container{
     margin: 0 auto;
@@ -11,6 +11,9 @@ body{
 }
 img{
     width: 100px;
+}
+span{
+    color: hsl(39, 100%, 71%);
 }
 .grid-container{
     display: grid;
@@ -27,11 +30,14 @@ img{
 .grid-container-one {
    grid-area: a;
    background-color:  hsl(31, 66%, 93%);
+   
+   
 }
 .grid-container-two{
   grid-area: b;
-  background-color:  hsl(256, 67%, 59%)
-;
+  background-color:  hsl(256, 67%, 59%);
+  
+
 }
 .grid-container-three{
  grid-area: c;
@@ -62,4 +68,5 @@ background-color: hsl(39, 100%, 71%);
 .grid-container div{
     padding: 15px;
     border-radius: 10px;
+    font-size: 25px;
 }
